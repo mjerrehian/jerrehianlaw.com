@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News and Updates | Jerrehian Law</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Alumni+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#404046',
+              gold: '#A99220',
+              cream: '#D1D1BC',
+            },
+            fontFamily: {
+              garamond: ['EB Garamond', 'serif'],
+              alumni: ['Alumni Sans', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body { font-family: 'Alumni Sans', Arial, sans-serif; }
+      h1, h2, h3, h4, h5, h6 { font-family: 'EB Garamond', serif; }
+    </style>
+  </head>
+  <body class="bg-cream text-primary">
+    <!-- Navigation -->
+    <header class="bg-primary text-cream sticky top-0 z-50 shadow">
+      <nav class="container mx-auto flex justify-between items-center py-4 px-4">
+        <span class="text-3xl font-garamond font-bold tracking-wide">Jerrehian Law</span>
+        <ul class="flex gap-8 text-xl font-alumni">
+          <li><a href="index.html#about" class="hover:text-gold transition">About</a></li>
+          <li><a href="index.html#practice" class="hover:text-gold transition">Practice Areas</a></li>
+          <li><a href="index.html#contact" class="hover:text-gold transition">Contact</a></li>
+          <li><a href="news.html" class="text-gold underline">News & Updates</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Banner Image -->
+    <section class="relative w-full h-56 md:h-80 flex items-center justify-center mb-8">
+      <img src="https://imgur.com/Qw8KQKb.jpg" alt="Philadelphia Skyline" class="absolute inset-0 w-full h-full object-cover object-center z-0" />
+      <div class="absolute inset-0 bg-primary/40 z-0"></div>
+      <div class="relative z-10 w-full flex flex-col items-center justify-center text-center">
+        <h1 class="text-4xl md:text-5xl font-garamond font-bold text-cream drop-shadow-lg mb-2">News & Updates</h1>
+        <p class="text-xl md:text-2xl font-alumni text-cream drop-shadow">Recent legal victories and important developments</p>
+      </div>
+    </section>
+    <!-- News Article -->
+    <main class="max-w-3xl mx-auto bg-white rounded shadow p-8 mb-16">
+      <article class="news-article">
+        <h2 class="text-3xl md:text-4xl font-garamond font-bold mb-2 text-gold">Major Victory for Philadelphians: Pennsylvania Superior Court Declares Section 6108 Unconstitutional</h2>
+        <p class="news-date text-lg text-primary mb-6">June 23, 2025</p>
+        <p class="font-alumni text-xl mb-4">In a landmark decision, the Pennsylvania Superior Court has just ruled that 18 Pa.C.S. § 6108—the statute prohibiting carrying a firearm on the streets of Philadelphia without a license—is unconstitutional. This is a major win for the people of Philadelphia and a significant development in Pennsylvania gun law.</p>
+        <p class="font-alumni text-xl mb-4">Jerrehian Law is proud to share that Matt brought the original motion challenging the constitutionality of § 6108 in this case at the Municipal Court level while working at the Defender Association. While Jerrehian Law had no part in the appeal process, this ruling shows how important every case is, down to misdemeanors in Municipal Court. It’s a powerful reminder that early motions matter—and that even local-level filings can help shape constitutional law in this Commonwealth.</p>
+        <h3 class="text-2xl font-garamond font-bold mt-8 mb-2 text-gold">What Is 18 Pa.C.S. § 6108?</h3>
+        <p class="font-alumni text-xl mb-4">Section 6108 made it a criminal offense to carry a firearm on public streets in Philadelphia unless the person had a valid license to carry—even though open carry is allowed in the rest of Pennsylvania without any license. Philadelphians were unfairly singled out for stricter rules under this statute.</p>
+        <p class="font-alumni text-xl mb-4">Even worse, § 6108 automatically elevated the grading of § 6106, which prohibits carrying a concealed firearm without a license, from a misdemeanor to a felony. That means that because of § 6108 Philadelphians were unfairly charged with felonies while people outside of Philadelphia would only be charged with misdemeanors.</p>
+        <h3 class="text-2xl font-garamond font-bold mt-8 mb-2 text-gold">Why This Matters</h3>
+        <ul class="list-disc list-inside font-alumni text-xl mb-4">
+          <li>Many people have faced gun charges simply for possessing a firearm in public without allegations of violence or any criminal use.</li>
+          <li>This ruling could lead to the dismissal or overturning of past convictions under § 6108.</li>
+          <li>Prosecutors can no longer rely on this statute to charge otherwise law-abiding citizens.</li>
+          <li>If you are charged with carrying a firearm without a license, that charge does not automatically become a felony simply because it occurred in Philadelphia.</li>
+        </ul>
+        <h3 class="text-2xl font-garamond font-bold mt-8 mb-2 text-gold">What Comes Next</h3>
+        <p class="font-alumni text-xl mb-4">It’s likely that the Commonwealth will appeal this decision to the Pennsylvania Supreme Court. But as it stands now, § 6108 cannot be enforced. If you or someone you know is facing or has faced charges under this statute, you should speak with a defense attorney immediately to understand your rights and potential avenues for relief.</p>
+        <h3 class="text-2xl font-garamond font-bold mt-8 mb-2 text-gold">Our Commitment to Constitutional Defense</h3>
+        <p class="font-alumni text-xl mb-4">At Jerrehian Law, we fight unconstitutional charges head-on. We take pride in filing thoughtful, aggressive motions that preserve key legal issues for higher courts to decide. This case is evidence that early, principled advocacy makes a difference.</p>
+        <p class="font-alumni text-xl">If you have been charged under § 6108 or have questions about how this ruling might affect your case, call today at <a href="tel:2672172163" class="text-gold hover:underline">(267) 217-2163</a> or email <a href="mailto:info@jerrehianlaw.com" class="text-gold hover:underline">info@jerrehianlaw.com</a> for a free consultation.</p>
+      </article>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-primary text-cream py-8 mt-10">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4 px-4">
+        <div class="font-garamond text-2xl font-bold">Jerrehian Law</div>
+        <nav>
+          <ul class="flex gap-8 text-xl font-alumni">
+            <li><a href="index.html#about" class="hover:text-gold transition">About</a></li>
+            <li><a href="index.html#practice" class="hover:text-gold transition">Practice Areas</a></li>
+            <li><a href="index.html#contact" class="hover:text-gold transition">Contact</a></li>
+            <li><a href="news.html" class="text-gold underline">News & Updates</a></li>
+          </ul>
+        </nav>
+        <div class="text-lg font-alumni text-center">
+          <div><strong>Office:</strong> 1515 Market Street, Suite 1200, Philadelphia, PA 19102</div>
+          <div><strong>Phone:</strong> <a href="tel:2672172163" class="text-gold hover:underline">(267) 217-2163</a></div>
+          <div><strong>Email:</strong> <a href="mailto:info@jerrehianlaw.com" class="text-gold hover:underline">info@jerrehianlaw.com</a></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
