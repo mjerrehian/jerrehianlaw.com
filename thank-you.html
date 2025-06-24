@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You | Jerrehian Law</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Alumni+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#404046',
+              gold: '#A99220',
+              cream: '#D1D1BC',
+            },
+            fontFamily: {
+              garamond: ['EB Garamond', 'serif'],
+              alumni: ['Alumni Sans', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body { font-family: 'Alumni Sans', Arial, sans-serif; }
+      h1, h2, h3, h4, h5, h6 { font-family: 'EB Garamond', serif; }
+    </style>
+  </head>
+  <body class="bg-cream text-primary min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <div class="max-w-xl">
+      <h1 class="text-4xl md:text-5xl font-garamond font-bold mb-6">Thank You</h1>
+      <p class="text-xl font-alumni mb-8">We'll be in touch as soon as possible to discuss your case.</p>
+      <a href="/" class="inline-block text-gold font-bold text-lg hover:underline">Return to Homepage</a>
+    </div>
+  </body>
+</html>
