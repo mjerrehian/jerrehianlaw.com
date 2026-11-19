@@ -8,7 +8,7 @@ document.querySelector('#app').innerHTML = `
         <h1>Jerrehian Law</h1>
         <p class="tagline">Dedicated defense when it matters most.</p>
         <div class="contact-info">
-          <p><strong>Phone:</strong> <a href="tel:2672172163">267-217-2163</a></p>
+          <p><strong>Phone:</strong> <a href="tel:2158544006">215-854-4006</a></p>
           <p><strong>Email:</strong> <a href="mailto:info@jerrehianlaw.com">info@jerrehianlaw.com</a></p>
           <p><strong>Office:</strong> 1515 Market Street, Suite 1200, Philadelphia, PA 19102</p>
         </div>
